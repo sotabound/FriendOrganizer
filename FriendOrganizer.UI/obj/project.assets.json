@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "FriendOrganizer.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FriendOrganizer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FriendOrganizer.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FriendOrganizer.Model/1.0.0": {
+      "type": "project",
+      "path": "../FriendOrganizer.Model/FriendOrganizer.Model.csproj",
+      "msbuildProject": "../FriendOrganizer.Model/FriendOrganizer.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "FriendOrganizer.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\slassiter\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\slassiter\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj",
+      "projectName": "FriendOrganizer.UI",
+      "projectPath": "C:\\Users\\slassiter\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj",
+      "packagesPath": "C:\\Users\\slassiter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\slassiter\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\slassiter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Nuget\\Local-Nuget-Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "H:\\Development\\SA NuGetFeed": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\slassiter\\source\\repos\\FriendOrganizer\\FriendOrganizer.Model\\FriendOrganizer.Model.csproj": {
+              "projectPath": "C:\\Users\\slassiter\\source\\repos\\FriendOrganizer\\FriendOrganizer.Model\\FriendOrganizer.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
